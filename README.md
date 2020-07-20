@@ -7,7 +7,7 @@ For Silverstripe 4, switch to branch >= 2.0
 
 ## Installation
 
-`composer require Zazama/matomo ^1.0`
+`composer require zazama/matomo ^1.0`
 
 ## Usage
 
