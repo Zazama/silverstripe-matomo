@@ -1,0 +1,29 @@
+{
+    "name": "zazama/matomo",
+    "description": "Silverstripe Matomo module to include tracking code",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "cms",
+        "matomo",
+        "tracking"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Jan Metzger",
+            "email": "jan.metzger@gmx.net",
+            "homepage": "https://zazama.de",
+            "role": "developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Zazama/silverstripe-matomo"
+    },
+    "require": {
+        "silverstripe/framework": "^4.*",
+        "silverstripe/cms": "4.*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

@@ -1,0 +1,8 @@
+---
+Name: matomoconfig
+After:
+  - 'framework/*'
+---
+SilverStripe\CMS\Controllers\ContentController:
+  extensions:
+    - Zazama\Matomo\Extensions\MatomoExtension
