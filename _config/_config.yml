@@ -1,0 +1,10 @@
+---
+Name: matomoconfig
+After:
+  - 'framework/*'
+  - 'cms/*'
+---
+
+Controller:
+  extensions:
+    - MatomoExtension
