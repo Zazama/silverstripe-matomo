@@ -1,20 +1,31 @@
 # Silverstripe Matomo Module
 
 ## Requirements
-* Silverstripe 3
+* Silverstripe 4
 
-For Silverstripe 4, switch to branch >= 2.0
+For Silverstripe 3, switch to branch 1
 
 ## Installation
 
-`composer require Zazama/matomo ^1.0`
+`composer require zazama/matomo ^2.0`
 
 ## Usage
 
 This module provides multiple options that you can use in your _config.yml
 
+### Basic config
 ```yaml
-MatomoExtension:
+Zazama\Matomo\Extensions\MatomoExtension:
+  # Root URL of your Matomo instance
+  server_url: 'https://example.com/'
+  # Site ID of the page you want to track
+  site_id: 1337
+```
+
+### All settings
+
+```yaml
+Zazama\Matomo\Extensions\MatomoExtension:
   # Root URL of your Matomo instance
   server_url: 'https://example.com/'
   # Site ID of the page you want to track
