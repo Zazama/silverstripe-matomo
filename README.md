@@ -13,6 +13,17 @@ For Silverstripe 4, switch to branch >= 2.0
 
 This module provides multiple options that you can use in your _config.yml
 
+### Basic config
+```yaml
+MatomoExtension:
+  # Root URL of your Matomo instance
+  server_url: 'https://example.com/'
+  # Site ID of the page you want to track
+  site_id: 1337
+```
+
+### All settings
+
 ```yaml
 MatomoExtension:
   # Root URL of your Matomo instance
