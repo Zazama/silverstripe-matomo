@@ -21,8 +21,8 @@
         "issues": "https://github.com/Zazama/silverstripe-matomo"
     },
     "require": {
-        "silverstripe/framework": "^3.*",
-        "silverstripe/cms": "3.*"
+        "silverstripe/framework": "^3",
+        "silverstripe/cms": "^3"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
