@@ -59,7 +59,6 @@ class MatomoExtension extends Extension
     private static $document_title_js = 'document.title';
 
     public function onAfterInit() {
-        echo print_r(Controller::curr());
         if (!$this->config()->get('insert_tracking_code') || (!Director::isLive() && !$this->config()->get('show_on_dev'))) {
             return;
         }
