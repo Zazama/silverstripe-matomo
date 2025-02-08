@@ -1,7 +1,7 @@
 # Silverstripe Matomo Module
 
 ## Requirements
-* Silverstripe 4
+* Silverstripe 4 or 5
 
 For Silverstripe 3, switch to branch 1
 
